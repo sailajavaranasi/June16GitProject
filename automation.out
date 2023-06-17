@@ -1,0 +1,9 @@
+init the properties files...
+Opened the Browser : chrome
+Navigated to url : https://www.amazon.in
+Selected the option Books By using Locator : searchDropdownBox
+Entered the text Harry Potter By using the Locator : field-keywords
+Clicked on Element By Using Locator : //*[@id="nav-search-submit-button"]
+Retrying test amazonText with status FAILURE for the 1 time(s).
+Retrying test amazonText with status FAILURE for the 2 time(s).
+Retrying test amazonText with status FAILURE for the 3 time(s).

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite">
+  <test thread-count="5" name="AutomationTest">
+    <classes>
+      <class name="testng.TestNG_002"/>
+      <class name="testng.TestNG_001"/>
+      <class name="testng.DemoClass"/>
+    </classes>
+  </test> <!-- AutomationTest -->
+</suite> <!-- AutomationSuite -->

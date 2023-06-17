@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-15T01:02:15Z" name="SuiteA" finished-at="2023-06-15T01:02:26Z" duration-ms="10890">
+    <groups>
+      <group name="regression">
+        <method signature="TestNG_003.amazonText()[pri:0, instance:testng.TestNG_003@6631f5ca]" name="amazonText" class="testng.TestNG_003"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2023-06-15T01:02:15Z" name="TestA" finished-at="2023-06-15T01:02:26Z" duration-ms="10890">
+      <class name="testng.TestNG_003">
+        <test-method is-config="true" signature="startProcess(java.lang.String)[pri:0, instance:testng.TestNG_003@6631f5ca]" started-at="2023-06-15T01:02:15Z" name="startProcess" finished-at="2023-06-15T01:02:20Z" duration-ms="5174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method signature="amazonText()[pri:0, instance:testng.TestNG_003@6631f5ca]" started-at="2023-06-15T01:02:20Z" name="amazonText" finished-at="2023-06-15T01:02:25Z" duration-ms="4590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonText -->
+        <test-method is-config="true" signature="endProcess()[pri:0, instance:testng.TestNG_003@6631f5ca]" started-at="2023-06-15T01:02:25Z" name="endProcess" finished-at="2023-06-15T01:02:26Z" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+      </class> <!-- testng.TestNG_003 -->
+    </test> <!-- TestA -->
+  </suite> <!-- SuiteA -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" parallel="tests">
+
+  <test thread-count="5" name="FirefoxText">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="testng.RadioButton1"/>
+      <class name="testng.CheckBox1"/>
+      <class name="testng.LinksTesting1"/>
+      <class name="testng.TestNG_003"/>
+    </classes>
+  </test> <!-- RegressionTest -->
+  
+  <test thread-count="5" name="ChromeTest">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="testng.RadioButton1"/>
+      <class name="testng.CheckBox1"/>
+      <class name="testng.LinksTesting1"/>
+      <class name="testng.TestNG_003"/>
+    </classes>
+  </test> <!-- RegressionTest -->
+  
+</suite> <!-- RegressionSuite -->
